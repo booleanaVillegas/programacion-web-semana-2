@@ -113,3 +113,26 @@ p {
 .character-paragraph {
     width: 400px;
 }
+
+@media only screen and (max-width: 1000px) {
+    #character-introduction{
+        flex-direction: column-reverse;
+    }
+    .character-desc {
+        width: 100%;
+        height: 50%;
+    padding: 0;
+    }
+    .character-img-container {
+        background: #9A348E; 
+        width: 100%;
+        height: 50%;
+    }
+    .character-img {
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
